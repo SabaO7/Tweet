@@ -1,0 +1,13 @@
+.profile-header {
+  height: 520px; /* 400px visible height + 120px nav height */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 120px;
+  background-color: #e9be93;
+  background-image: url("https://www.transparenttextures.com/patterns/corrugation.png");
+  flex-direction: column;
+  text-align: center;
+}
