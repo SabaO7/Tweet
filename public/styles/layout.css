@@ -55,11 +55,7 @@ main {
       height: 50%;
       margin-top: 10rem;
   }
-
-  .user-image-container {
-    border: 3px solid black;
-  }
-
+  
   main {
       flex: 3;
       display: flex;
