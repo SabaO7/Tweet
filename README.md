@@ -11,8 +11,8 @@ This app provides the user with the ability to post tweets to a Tweet feed. This
 * This app uses a responsive design and will adjust depending on the display size.
 
 # How it looks like
-![big screen](docs/big-screen.png)
-![small screen](docs/small-screen.png)
+![big screen](public/docs/big-screen.png)
+![small screen](public/docs/small-screen.png)
 
 
 ## Getting Started
