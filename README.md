@@ -2,7 +2,18 @@
 
 Tweeter is a simple, single-page Twitter clone.
 
-This repository is the starter code for the project: Students will fork and clone this repository, then build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express back-end skills.
+This app provides the user with the ability to post tweets to a Tweet feed. This app was built with Javascript, jQuery, AJAX on the front-end, and with Express and Node on the back-end. The contents of the app were built using HTML and CSS styling.
+
+# Core Features
+* Start by writing a tweet in the tweet box and clicking on "Tweet". This will "Submit" the tweet to the back-end via AJAX.
+* A successful POST request will then GET the tweet object back from the back-end and update the feed without having to refresh the page.
+* Error messages will be displayed if an empty tweet or a tweet longer than 140 characters is being submitted.
+* This app uses a responsive design and will adjust depending on the display size.
+
+#How it looks like
+![big screen](doc/big-screen.png)
+![small screen](doc/small-screen.png)
+
 
 ## Getting Started
 
