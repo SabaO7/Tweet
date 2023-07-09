@@ -10,9 +10,9 @@ This app provides the user with the ability to post tweets to a Tweet feed. This
 * Error messages will be displayed if an empty tweet or a tweet longer than 140 characters is being submitted.
 * This app uses a responsive design and will adjust depending on the display size.
 
-#How it looks like
-![big screen](doc/big-screen.png)
-![small screen](doc/small-screen.png)
+# How it looks like
+![big screen](docs/big-screen.png)
+![small screen](docs/small-screen.png)
 
 
 ## Getting Started
