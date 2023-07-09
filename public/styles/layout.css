@@ -13,6 +13,7 @@ html {
 body {
   color: #545149;
   background-color: #f4f1ec;
+  width: 100%;
   font-size: 24px;  
   font-family: 'Source Sans 3', sans-serif;
 }
@@ -32,8 +33,52 @@ nav span {
  */
 
 main {
-  padding-top: 520px;
+  padding-top: 150px;
   width: 90%;
   margin: 0 auto;
   background-color: #f4f1ec;
 }
+
+/* For larger screens */
+@media only screen and (min-width: 1024px) {
+  .header-container {
+      display: flex;
+  }
+
+  .profile-header {
+    flex: 1;
+  }
+
+  .profile-icon {
+      /* flex: 1; */
+      text-align: center;
+      height: 50%;
+      margin-top: 10rem;
+  }
+
+  .user-image-container {
+    border: 3px solid black;
+  }
+
+  main {
+      flex: 3;
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+/* For smaller screens */
+@media only screen and (max-width: 1024px) {
+  .profile-icon {
+      text-align: center;
+  }
+  main {
+    padding-top: 1px;
+  }
+  .user-image {
+    border-style: none;
+    height: 15rem;
+    margin-top: 7rem;
+  }
+}
+

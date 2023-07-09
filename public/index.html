@@ -65,42 +65,46 @@
                 </div>
             </div>
         </nav>
-
-        <!-- Header-->
-        <header class="profile-header">
-            <div class="user-profile">
-                <img class="user-image" src="/images/profile-hex.png">
+        <div class="header-container">
+            <!-- Header-->
+            <div class="profile-header">
+                <header class="profile-icon">
+                    <div class="user-image-container">
+                        <img class="user-image" src="/images/profile-hex.png">
+                    </div>
+                    <div>
+                        <h2 id="username">Couch Potato</h2>
+                    </div>
+                </header>
             </div>
-            <div>
-                <h2 id="username">Couch Potato</h2>
-            </div>
-        </header>
 
-        <!-- Main content -->
-        <!--HTML for creating new tweet-->
-        <main>
-            <section class="new-tweet">
-                <h2 class="new-tweet-header">Compose Tweet</h2>
-                <span id="error-message-empty" class="error-message-box">
-                <i class="fas fa-exclamation-triangle" style= "color: red"></i>
-                Please enter text before submitting a new Tweet!
-                <i class="fas fa-exclamation-triangle" style= "color: red"></i>
-                </span>
-                <span id="error-message-tooLong" class="error-message-box">
-                <i class="fas fa-exclamation-triangle" style= "color: red"></i>
-                Please reduce your tweent content to less than or equal to 140 characters!
-                <i class="fas fa-exclamation-triangle" style= "color: red"></i>
-                </span>
-                <form action="/tweets" method="POST" id="new-tweet-form">
-                <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
-                <div class="new-tweet-footer">
-                    <button id="submit" type="submit">Tweet</button>
-                    <output name="counter" class="counter" for="tweet-text">140</output>
-                </div>
-                </form>
-            </section>
-            <!--HTML for displaying created tweets, rendered in client.js-->
-            <section id="tweets-container"></section>
-        </main>
+            <!-- Main content -->
+            <!--HTML for creating new tweet-->
+            <main>
+                <section class="new-tweet">
+                    <h2 class="new-tweet-header">Compose Tweet</h2>
+                    <span id="error-message-empty" class="error-message-box">
+                        <i class="fas fa-exclamation-triangle" style= "color: red"></i>
+                        Please enter text before submitting a new Tweet!
+                        <i class="fas fa-exclamation-triangle" style= "color: red"></i>
+                    </span>
+                    <span id="error-message-tooLong" class="error-message-box">
+                        <i class="fas fa-exclamation-triangle" style= "color: red"></i>
+                        Please reduce your tweent content to less than or equal to 140 characters!
+                        <i class="fas fa-exclamation-triangle" style= "color: red"></i>
+                    </span>
+                    <form action="/tweets" method="POST" id="new-tweet-form">
+                    <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
+                    <div class="new-tweet-footer">
+                        <button id="submit" type="submit">Tweet</button>
+                        <output name="counter" class="counter" for="tweet-text">140</output>
+                    </div>
+                    </form>
+                </section>
+                <section id="tweets-container">
+                    <!--HTML for displaying created tweets, rendered in client.js-->
+                </section>
+            </main>
+        </div>
     </body>
 </html>

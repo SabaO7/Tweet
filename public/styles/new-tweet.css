@@ -4,7 +4,7 @@
   width: 90%;
   background-color:#f4f1ec;
   font-family: sans-serif;
-  padding-top: 150px;
+  padding-left: 20px;;
 }
 
 #new-tweet-form {
@@ -61,10 +61,4 @@
 .fa-exclamation-triangle {
   margin-left: 5px;
   margin-right: 5px;
-}
-
-@media only screen and (min-width: 1024px) {
-  .new-tweet {
-    width: 100%;
-  } 
 }
