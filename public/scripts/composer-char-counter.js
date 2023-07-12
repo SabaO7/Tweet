@@ -3,11 +3,7 @@ $(document).ready(function() {
     //Get current count of the string in the text area
     const currCount = $(this).val().length;
     //Get the value of the counter
-    const counter = $(this)
-      .parent()
-      .parent()
-      .children(".tweet-additions")
-      .children(".counter");
+    const counter = $('.counter')
     const count = 140 - currCount;
     //Update the counter
     counter.text(count);
@@ -18,3 +14,5 @@ $(document).ready(function() {
     }
   });
 });
+
+
